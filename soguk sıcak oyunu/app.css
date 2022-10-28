@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+}
+
+body,html{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.all{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius:1rem ;
+    background-color: antiquewhite;
+}
+
+.last-guesses {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type:none ;
+}
+
+.last-guesses li{
+    margin-right: 2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#restart-btn{
+    display:none;
+}
